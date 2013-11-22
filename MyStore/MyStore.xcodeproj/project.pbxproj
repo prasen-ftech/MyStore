@@ -18,6 +18,9 @@
 		672A6598183E1CCE00AAE825 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 672A6597183E1CCE00AAE825 /* Default@2x.png */; };
 		672A659A183E1CCE00AAE825 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 672A6599183E1CCE00AAE825 /* Default-568h@2x.png */; };
 		672A659D183E1CCE00AAE825 /* MyStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 672A659B183E1CCE00AAE825 /* MyStore.xcdatamodeld */; };
+		672A65A4183E34E900AAE825 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672A65A3183E34E900AAE825 /* Storyboard.storyboard */; };
+		67DBD1F3183F2F4B00ECC70D /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DBD1F2183F2F4B00ECC70D /* DeviceViewController.m */; };
+		67DBD1F6183F2F5F00ECC70D /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DBD1F5183F2F5F00ECC70D /* DeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,11 @@
 		672A6597183E1CCE00AAE825 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		672A6599183E1CCE00AAE825 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		672A659C183E1CCE00AAE825 /* MyStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStore.xcdatamodel; sourceTree = "<group>"; };
+		672A65A3183E34E900AAE825 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		67DBD1F1183F2F4B00ECC70D /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		67DBD1F2183F2F4B00ECC70D /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		67DBD1F4183F2F5F00ECC70D /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		67DBD1F5183F2F5F00ECC70D /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,12 @@
 				672A6592183E1CCE00AAE825 /* AppDelegate.h */,
 				672A6593183E1CCE00AAE825 /* AppDelegate.m */,
 				672A659B183E1CCE00AAE825 /* MyStore.xcdatamodeld */,
+				672A65A3183E34E900AAE825 /* Storyboard.storyboard */,
+				67DBD1F1183F2F4B00ECC70D /* DeviceViewController.h */,
+				67DBD1F2183F2F4B00ECC70D /* DeviceViewController.m */,
 				672A658A183E1CCE00AAE825 /* Supporting Files */,
+				67DBD1F4183F2F5F00ECC70D /* DeviceDetailViewController.h */,
+				67DBD1F5183F2F5F00ECC70D /* DeviceDetailViewController.m */,
 			);
 			path = MyStore;
 			sourceTree = "<group>";
@@ -161,6 +174,7 @@
 				672A6596183E1CCE00AAE825 /* Default.png in Resources */,
 				672A6598183E1CCE00AAE825 /* Default@2x.png in Resources */,
 				672A659A183E1CCE00AAE825 /* Default-568h@2x.png in Resources */,
+				672A65A4183E34E900AAE825 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +188,8 @@
 				672A6590183E1CCE00AAE825 /* main.m in Sources */,
 				672A6594183E1CCE00AAE825 /* AppDelegate.m in Sources */,
 				672A659D183E1CCE00AAE825 /* MyStore.xcdatamodeld in Sources */,
+				67DBD1F3183F2F4B00ECC70D /* DeviceViewController.m in Sources */,
+				67DBD1F6183F2F5F00ECC70D /* DeviceDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +304,7 @@
 				672A65A2183E1CCE00AAE825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
